@@ -1,0 +1,77 @@
+/* BOOTSTRAP*/
+.card {
+    background-color: $colorNegro !important;
+    color: $colorBlanco;
+    border: 3px double $colorBlanco !important;
+    border-radius: .25rem;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 5px $rojoPersonalizado;
+    transform:scale(1.1);
+}
+.card-title {
+    font-family: $fuenteTexto;
+    font-size: 1.3rem;
+}
+.card-text {
+    font-family: $fuenteTexto;
+    font-size: 1.5rem;
+}
+.container {
+    background-color: $colorNegro !important;
+}
+
+.row {
+    justify-content: center;
+}
+.navbar {
+    background-color: $colorNegro;
+    color: $colorBlanco;
+    padding: 1.2rem 1.2rem !important;
+}
+
+.navbar li a{
+    color: $colorBlanco !important;
+    font-family: $fuenteTexto;
+    font-size: 1.3rem;
+}
+.dropdown-menu{
+    background-color: $colorNegro !important;
+}
+.navbar a{
+    font-family: $fuenteLogo;
+    font-size: 1.7rem;;
+    color: $rojoPersonalizado !important;
+
+}
+.navbar a:hover {
+    color:$rojoPersonalizado !important;
+}
+.dropdown-item{
+    padding: 0.3rem 0.8rem !important;
+}
+.dropdown-item:hover {
+    background-color: $colorNegro !important;
+}
+.nav-item {
+    padding-left: 2rem;
+}
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+.form-group {
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+.centrar{
+    display: flex !important;
+    text-align: center;
+    margin-top: 1.5rem !important;
+}
+
+/*FIN BOOTSTRAP*/

@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.fondo {
+    background-color:$colorNegro;
+    padding-top: 0.7rem;
+    padding-bottom: 1rem;
+}
+
+/*Banners*/
+.banner__intro {
+    background-color: $colorBlanco;
+    height: 260px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner__intro--naruto {
+    background-image: url(../img/bannernaruto.gif);
+}
+
+.banner__intro--kny {
+    @extend .banner__intro;
+    background-image: url(../img/bannerdemon2.jpg);
+}
+
+.banner__intro--jk {
+    @extend.banner__intro;
+background-image: url(../img/bannerjk3.jpg);
+}
+
+.banner__intro--snk {
+    @extend .banner__intro;
+    background-image: url(../img/snkbanner.jpg);
+}
+
+.banner__intro--nnt {
+    @extend .banner__intro;
+background-image: url(../img/Nanatsu-no-Taizai-2.jpg);
+}
+.banner__intro--figuras {
+    @extend .banner__intro;
+    background-image: url(../img/Coleccion-de-Figuras.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+}
+.banner__intro--accesorios {
+    @extend .banner__intro;
+    background-image: url(../img/llaveros2.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+}
+.banner__intro--contacto {
+    @extend .banner__intro;
+    background-image: url(../img/kamadogif.gif);
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+/*Seccion Contacto */
+
+#fondo {
+    background-color: $colorNegro;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.texto-contacto{
+    text-align: center;
+    padding-top: 1.5rem;
+    color: $colorBlanco;
+}

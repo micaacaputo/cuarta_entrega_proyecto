@@ -1,0 +1,121 @@
+@import 'variables';
+@import 'bootstrap';
+@import 'secciones';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    border-bottom: 2px solid $colorBlanco;
+}
+/*Titulos sobre la imagen*/
+.titulo__seccion {
+    margin: auto;
+    border-top: 2px solid $colorBlanco;
+    border-bottom: 3px solid $colorBlanco;
+    background-color: #000;
+    font-family: $fuenteLogo;
+    font-size: 2.4rem;
+    color: $colorBlanco;
+    padding: 20px 0px 20px 0px;
+}
+#titulo {
+    h2 {
+        text-align: center;
+    }
+}
+
+/*Texto de las imagenes*/
+.texto {
+    background-color: $colorNegro;
+    border-top: 1px solid $colorBlanco;
+    padding-top: 25px;
+}
+
+.texto {
+    p {
+        color: $colorBlanco;
+        text-align: center;
+        font-family: $fuenteTexto;
+        font-size: 1.6rem;
+    }
+}
+
+/*Footer*/
+.mangakyou__footer {
+    background-color: $rojoPersonalizado;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
+.mangakyou__footer {
+    ul {
+        li {
+            a{
+                text-decoration: none;
+                color: $colorNegro;
+                font-size: 1.1rem;
+            }
+        }
+    }
+}
+.footer__menu {
+    color: $colorBlanco;
+    font-family: $fuenteLogo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    margin-bottom: 0.1rem;
+}
+.redes {
+    font-size: 1.7rem;
+}
+.padding {
+    padding-bottom: 1.2rem;
+}
+.footer__iconos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__iconos{
+    li {
+        a {
+            i {
+                margin-right: 1.5rem;
+            }
+        }
+    }
+}
+
+/*Operaciones*/
+.banner {
+    background-color: $colorNegro;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner__bienvenida {
+    @extend .banner;
+    background-image: url(../img/equipo7chico.png);
+
+}
+.banner_productos {
+    @extend .banner;
+    background-image: url(../img/snkbanner2.png);
+}
+.banner__quienes-somos{
+    @extend .banner;
+    background-image: url(../img/sevendeadly.jpg);
+}
